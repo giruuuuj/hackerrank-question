@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Read an integer
+        int i = scanner.nextInt();
+        // Read a double
+        double d = scanner.nextDouble();
+        // Consume the newline character left by nextDouble()
+        scanner.nextLine();
+        // Read a String
+        String s = scanner.nextLine();
+        
+        // Print the outputs in the required format
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+        
+        scanner.close(); // Close the scanner
+    }
+}
